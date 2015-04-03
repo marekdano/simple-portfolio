@@ -10,7 +10,7 @@ body {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
-  background: orange; /* this is temporarily */
+ /* background: orange; this is temporarily */
 }
 
 a {
@@ -23,6 +23,10 @@ a {
    of the page) the size of images changed too. */
 img {
   max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
 }
 
 ul {
@@ -83,6 +87,11 @@ nav li {
   display: inline-block;
 }
 
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
 
 /************************************
 FOOTER
@@ -96,7 +105,11 @@ footer {
   color: #ccc;
 }
 
-
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
 
 /************************************
 PAGE: PORTFOLIO
@@ -121,6 +134,27 @@ PAGE: PORTFOLIO
   padding: 5%;
   font-size: 0.75em;
   color: #bdc3c7;
+}
+
+
+
+
+/************************************
+PAGE: ABOUT;
+*************************************/
+
+.profile-photo {
+  /* clear:both has to be used for 
+  firefox - image is not displayed there*/
+  clear: both;
+  /* images by default are displayed 
+  inline to displayed them display:block 
+  has to added */
+  display: block; 
+  max-width: 150px;
+  /* displayed image in the centre */
+  margin: 0 auto 30px;
+  border-radius: 100%;
 }
 
 
