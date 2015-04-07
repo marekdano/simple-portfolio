@@ -18,8 +18,8 @@ a {
   color: #6ab47b;
 }
 
-/* Images will fill the width of their parent container/element. 
-   If the container changed the width (mobile size 
+/* Images will fill the width of their parent container/element.
+   If the container changed the width (mobile size
    of the page) the size of images changed too. */
 img {
   max-width: 100%;
@@ -62,7 +62,7 @@ h1 {
 h2 {
   font-size: 0.75em;
   margin: -5px 0 0;
-  font-weight: normal; 
+  font-weight: normal;
 }
 
 
@@ -144,13 +144,13 @@ PAGE: ABOUT
 *************************************/
 
 .profile-photo {
-  /* clear:both has to be used for 
+  /* clear:both has to be used for
   firefox - image is not displayed there*/
   clear: both;
-  /* images by default are displayed 
-  inline to displayed them display:block 
+  /* images by default are displayed
+  inline to displayed them display:block
   has to added */
-  display: block; 
+  display: block;
   max-width: 150px;
   /* displayed image in the centre */
   margin: 0 auto 30px;
@@ -220,6 +220,5 @@ nav a,  nav a:visited {
 }
 
 nav a.selected, nav a:hover {
-  color: #32673f;                           
+  color: #32673f;
 }
-
